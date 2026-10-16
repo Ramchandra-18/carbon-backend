@@ -136,7 +136,8 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(List.of(
             "http://localhost:5173",
-            "https://carbon-frontend-zr8y.vercel.app"
+            "https://carbon-frontend-zr8y.vercel.app",
+             "https://carbon-frontend-zr8y-git-main-ramchandras-projects-6a4c1ca1.vercel.app"
         ));
         configuration.setAllowedMethods(
             List.of(
